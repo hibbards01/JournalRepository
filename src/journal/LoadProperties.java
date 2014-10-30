@@ -10,8 +10,6 @@ package journal;
 import java.util.Properties;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Set;
-import java.util.HashSet;
 
 /**
  * LOADPROPERTIES

@@ -172,12 +172,6 @@ public class JournalGUI extends Application {
             }
         });
         
-        
-        //do the tabs first!
-        //entry.setContent(list);
-        //script.setContent();
-        //topics.setContent();
-        
         //now put things in the right place!
         grid.add(label, 10, 0);
         grid.add(inputTitle, 13, 0);

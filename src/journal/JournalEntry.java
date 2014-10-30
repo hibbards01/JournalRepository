@@ -31,6 +31,11 @@ public class JournalEntry {
    /**
     * CONSTRUCTOR
     *   This will construct the members.
+     * @param title
+     * @param content
+     * @param date
+     * @param topics
+     * @param scriptures
     */
    public JournalEntry(String title, String content, String date, List<String> topics,
                        List<Scripture> scriptures) {
@@ -40,8 +45,8 @@ public class JournalEntry {
       this.title = title;
       this.content = content;
       this.date = date;
-      this.topics = new ArrayList<String>(topics);
-      this.scriptures = new ArrayList<Scripture>(scriptures);
+      this.topics = new ArrayList<>(topics);
+      this.scriptures = new ArrayList<>(scriptures);
    }
    
    /**

@@ -36,6 +36,8 @@ public class ListUpdater implements Updater {
     /**
      * CONSTRUCTOR
      * @param text 
+     * @param list 
+     * @param stage 
      */
     public ListUpdater(Text text, ListView<String> list, Stage stage) {
         this.text = text;
@@ -53,6 +55,8 @@ public class ListUpdater implements Updater {
      *      from the update class.
      * @param numScripts
      * @param numTopics 
+     * @param title 
+     * @param isDone 
      */
     @Override
     public void update(int numScripts, int numTopics, String title, boolean isDone) {

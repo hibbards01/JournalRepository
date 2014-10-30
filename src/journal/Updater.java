@@ -1,8 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+*  UPADTER
+*   This will be an interface tha will be implmented by other classes.
+*/
+
 package journal;
 
 import javafx.scene.control.ListView;

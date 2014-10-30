@@ -6,11 +6,8 @@
 
 package journal;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.io.File;
 
 /**
  * JOURNAL
@@ -105,6 +102,7 @@ public class Journal {
     *   This will add a new entry to the JOURNAL
     * @param title
     * @param content 
+    * @param date 
     */
    public void createNewEntry(String title, String content, String date) {
        //grab the scriptures and topics

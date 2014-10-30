@@ -8,9 +8,7 @@ package journal;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -82,6 +80,7 @@ public class GospelTopics {
    /**
     * SEARCH
     *   Search in the entries.
+     * @param entries
     */
    public void search(List<JournalEntry> entries) {
        //now find the topics!
@@ -108,6 +107,8 @@ public class GospelTopics {
    /**
     * TOPICSFINDER
     *   Find all the topics!
+     * @param line
+     * @return 
     */
    public List<String> topicsFinder(String line) {
        //create variables!

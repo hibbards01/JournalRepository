@@ -30,6 +30,8 @@ public class Scripture {
 
    /**
     * NON-DEFAULT CONSTRUCTOR
+     * @param b
+     * @param c
     */
    public Scripture(String b, String c) {
       book = b;
@@ -39,6 +41,9 @@ public class Scripture {
    
    /**
     * NON-DEFAULT CONSTRUCTOR
+     * @param b
+     * @param c
+     * @param v
     */
    public Scripture(String b, String c, String v) {
       book = b;
@@ -49,6 +54,7 @@ public class Scripture {
    /**
     * ISVALID
     *   This will make sure it is a valid scripture
+     * @return 
     */
    public boolean isValid() {
       return true;

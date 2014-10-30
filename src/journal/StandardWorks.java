@@ -79,6 +79,8 @@ public class StandardWorks {
    /**
     * SCRIPTUREFINDER
     *   This will use a pattern to find a scripture!
+     * @param line
+     * @return 
     */
    public List<Scripture> scriptureFinder(String line) {
        //create a new list!
@@ -118,6 +120,8 @@ public class StandardWorks {
    /**
     * ISVALID
     *   This make sure the it is a valid scripture!
+     * @param scripture
+     * @return 
     */
    public boolean isValid(Scripture scripture) {
        boolean valid = false;
@@ -142,6 +146,8 @@ public class StandardWorks {
    /**
     * SPLITSCRIPTURE
     *  This will split the string to individual variables.
+     * @param scripture
+     * @return 
     */
    public Scripture splitScripture(String scripture) {
        //first split the scripture to the individual variables!
@@ -179,6 +185,7 @@ public class StandardWorks {
    
    /**
     * SEARCH
+     * @param entries
     */
    public void search(List<JournalEntry> entries) {
       //find common scriptures!
